@@ -53,3 +53,27 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# Virtual environments
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Captured step-response CSV logs (optional: remove if you want to version sample data)
+*.csv
+
+# OS generated files
+.DS_Store
+Thumbs.db
